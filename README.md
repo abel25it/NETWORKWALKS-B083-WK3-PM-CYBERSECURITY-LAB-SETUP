@@ -38,7 +38,7 @@ In this module, an encrypted file named 'My Locked PDF1.pdf' was targeted. The f
 
 ***4.2 Module 2: Password Cracking with NETWORKWALKS TOOLS***
 
-This module demonstrated a browser-based approach. The target was again 'My Locked PDF1.pdf'. The Networkwalks Hash Calculator was used to upload the PDF and extract its hash securely. The complete hash was copied and pasted into the Networkwalks Password Cracker tool. The tool ran a dictionary attack using a built-in list of 100 common passwords. The attack yielded a successful match ('password1'), demonstrating that short, common passwords can be cracked almost instantly without installing local software.
+This module demonstrated a browser-based approach. The target was again 'My Locked PDF1.pdf'. The Networkwalks Hash Calculator was used to upload the PDF and extract its hash securely. The complete hash was copied and pasted into the Networkwalks Password Cracker tool. The tool ran a dictionary attack using a built-in list of 100 common passwords. The attack yielded a successful match ('good-luck'), demonstrating that short, common passwords can be cracked almost instantly without installing local software.
 
 ***4.3 Module 3: Setup Hexstrike-AI MCP server***
 
@@ -46,11 +46,11 @@ To integrate AI into the cracking workflow, a Kali Linux virtual machine was con
 
 ***4.4 Module 4: AI-Assisted Password Cracking***
 
-With the Hexstrike-AI MCP server active, Claude AI was utilized to autonomously crack 'hash3.networkwalks\_flag1.pdf'. Through natural language prompts in the Claude interface, the AI first verified the installation of John the Ripper on the Kali system. It then calculated the MD5, SHA-1, and SHA-256 hashes of the target file. Finally, Claude was instructed to use JTR and the rockyou.txt wordlist to crack the PDF. The AI executed the necessary backend commands via MCP, extracted the PDF hash format, ran JTR against it, and successfully cracked the password ('password'), presenting the results directly in the chat interface.
+With the Hexstrike-AI MCP server active, Claude AI was utilized to autonomously crack 3 Locked PDFs. Through natural language prompts in the Claude interface, the AI first verified the installation of John the Ripper on the Kali system. It was then provided the Hash of the PDF Files. Finally, Claude was instructed to use JTR and the rockyou.txt wordlist to crack the PDF. The AI executed the necessary backend commands via MCP, extracted the PDF hash format, ran JTR against it, and successfully cracked all the passwords, presenting the results directly in the chat interface.
 
 **5\. Risk Analysis / Impact**
 
-The labs demonstrate that relying on simple passwords (like 'password1' or 'password') provides a false sense of security. Encrypted documents store their protection keys as hashes, which can be easily extracted using both web tools and command-line utilities. Once a hash is extracted, an attacker can perform offline dictionary or brute-force attacks without triggering security lockouts or alerts. The impact of a compromised password can be severe, leading to unauthorized data access, intellectual property theft, and regulatory compliance violations. The integration of AI (like Hexstrike MCP) further lowers the barrier to entry, allowing attackers to automate the extraction and cracking process rapidly.
+The labs demonstrate that relying on simple passwords (like 'password1') provides a false sense of security. Encrypted documents store their protection keys as hashes, which can be easily extracted using both web tools and command-line utilities. Once a hash is extracted, an attacker can perform offline dictionary or brute-force attacks without triggering security lockouts or alerts. The impact of a compromised password can be severe, leading to unauthorized data access, intellectual property theft, and regulatory compliance violations. The integration of AI (like Hexstrike MCP) further lowers the barrier to entry, allowing attackers to automate the extraction and cracking process rapidly.
 
 **6\. Recommendations**
 
