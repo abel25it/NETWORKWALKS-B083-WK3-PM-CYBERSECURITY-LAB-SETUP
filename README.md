@@ -6,7 +6,7 @@ W3-PM-FINAL | CYBERSECURITY | NETWORKWALKS
 | :---- | :---- |
 | Program/Batch | B083-Networkwalks |
 | Date | 24 September 2026 |
-| Modules completed | W3-PM1 Password Cracking With JTRW3-PM2 Password Cracking With NETWORKWALKS TOOLSW3-PM3 Password Cracking With Hexstrike-AI MCP server with Claude desktopW3-PM4 Password Cracking With JTR JOHN with the help of AI (Hexstrike-AI MCP with Claude |
+| Modules completed | W3-PM1 Password Cracking With JTR W3-PM2 Password Cracking With NETWORKWALKS TOOLS W3-PM3 Password Cracking With Hexstrike-AI MCP server with Claude desktop W3-PM4 Password Cracking With JTR JOHN with the help of AI (Hexstrike-AI MCP with Claude) |
 
 **1\. Liability Disclaimer**
 
@@ -68,26 +68,56 @@ During Week 3 of my Cybersecurity & Ethical Hacking internship, I completed prac
 ***4.1 Module 1: Password Cracking with JTR***
 
 \- Hash Extraction: Successfully extracted hashes in the format starting with \$pdf\$ from encrypted files.
-
-![][image1]
+<img width="1030" height="492" alt="image" src="https://github.com/user-attachments/assets/cfbb83d1-5c71-4ab2-bb68-504a78c5f871" />
 
 The password for 'My Locked PDF1.pdf' was identified as good-luck using JTR.
+<img width="897" height="691" alt="image" src="https://github.com/user-attachments/assets/b16c271a-dce4-4e4f-ada7-caa45e0a9295" />
 
-![][image2]
 
 ***4.2 Module 2: Password Cracking with NETWORKWALKS TOOLS***
-
-![][image3]
+<img width="1060" height="442" alt="image" src="https://github.com/user-attachments/assets/9bb878cf-706e-45c5-acb7-adc81fd5e1db" />
 
 Uploaded a custom wordlist to check for the password  
-![][image4]
+<img width="897" height="392" alt="image" src="https://github.com/user-attachments/assets/b3153da3-2677-4203-a37a-05918e9f4153" />
+
 
 ***4.3 Module 3: Setup Hexstrike-AI MCP server***
+<img width="1002" height="551" alt="image" src="https://github.com/user-attachments/assets/d4edfdb7-3b77-43fa-a6e9-58d5b94e4333" />
 
-***![][image5]***
+<img width="1022" height="537" alt="image" src="https://github.com/user-attachments/assets/02a115a3-9c41-4900-a71d-1ac135f4aa03" />
 
-***![][image6]***
+<img width="847" height="403" alt="image" src="https://github.com/user-attachments/assets/20cb60fc-86c6-40f0-9906-9c26aee4f25f" />
 
-***![][image7]***
 
 ***4.4 Module 4: AI-Assisted Password Cracking***
+<img width="1041" height="545" alt="image" src="https://github.com/user-attachments/assets/4cb05b2b-2d79-4e4d-8eec-657bf6ae911c" />
+
+Conducted attack on 3 password protected PDF Files
+
+Extracted all 3 password protected PDF Files Hash
+
+<img width="1028" height="394" alt="image" src="https://github.com/user-attachments/assets/e660fdaf-e50f-4226-8eee-1bcde35e8a49" />
+
+<img width="1037" height="540" alt="image" src="https://github.com/user-attachments/assets/0d9b7bc1-98a4-49e2-8cd9-573a02fd58aa" />
+
+<img width="1022" height="397" alt="image" src="https://github.com/user-attachments/assets/7fa69e23-9344-447a-8b1c-4a92451c3d34" />
+
+<img width="1026" height="407" alt="image" src="https://github.com/user-attachments/assets/8da50a4b-9bd3-4ee6-b536-2269a2ecfb06" />
+
+<img width="1026" height="575" alt="image" src="https://github.com/user-attachments/assets/798c2a77-9aef-4bc3-9a0d-45545f6f4218" />
+
+Contents of the password protected PDF Files:
+
+<img width="536" height="565" alt="image" src="https://github.com/user-attachments/assets/3447c006-8739-42e4-8669-daac52ef482f" />
+
+<img width="620" height="755" alt="image" src="https://github.com/user-attachments/assets/b522102f-c16b-4ec8-bb06-147ff31b98a0" />
+
+<img width="865" height="760" alt="image" src="https://github.com/user-attachments/assets/f194d45d-8e9b-491c-87fe-1dcbd09ed548" />
+
+
+
+
+
+
+
+
